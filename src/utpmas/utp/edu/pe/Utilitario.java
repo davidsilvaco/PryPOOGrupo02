@@ -9,6 +9,6 @@ package utpmas.utp.edu.pe;
  *
  * @author DAVID
  */
-public class CursoPregrado {
+public class Utilitario {
     
 }
