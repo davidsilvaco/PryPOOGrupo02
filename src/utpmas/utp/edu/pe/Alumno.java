@@ -47,6 +47,18 @@ public class Alumno extends Persona {
     //metodos
 
 
+    @Override
+    public String toString() {
+        return "Alumno [codigoalumno=" + codigoalumno + ", correoalumno=" + correoalumno + "]";
+    }
+
+
+    @Override
+    public String toString() {
+        return "Persona [codigoalumno=" + codigoalumno + "apellidos=" + this.getApellidos()
+        + ", nombres=" + this.getNombres() + ", dni=" + this.getDni()  + ", genero=" 
+        + this.getGenero() + ", fechanacimiento=" + this.getFechanacimiento() + "]";
+    }
     
     
     

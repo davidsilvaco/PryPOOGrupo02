@@ -74,7 +74,8 @@ public abstract class Persona {
     public void setFechanacimiento(String fechanacimiento) {
         this.fechanacimiento = fechanacimiento;
     }
-    
+
+ 
     
     
     
