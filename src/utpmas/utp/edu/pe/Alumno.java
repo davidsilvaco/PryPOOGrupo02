@@ -2,6 +2,7 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ * * and open the template in the editor.
  */
 package utpmas.utp.edu.pe;
 
@@ -17,17 +18,20 @@ public class Alumno extends Persona {
     
     //Construnctor
 
-    public Alumno(String codigoalumno, String correoalumno) {
-        super();
+    public Alumno(String nombres, String apellidos, String dni, char genero, String fechanacimiento,
+            String codigoalumno, String correoalumno) {
+        super(nombres, apellidos, dni, genero, fechanacimiento);
         this.codigoalumno = codigoalumno;
         this.correoalumno = correoalumno;
     }
 
-
+    
     //Getters And Stters
     public String getCodigoalumno() {
         return codigoalumno;
     }
+
+
 
     public void setCodigoalumno(String codigoalumno) {
         this.codigoalumno = codigoalumno;

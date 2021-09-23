@@ -31,6 +31,14 @@ public abstract class Persona {
         return nombres;
     }
 
+    public Persona(String nombres, String apellidos, String dni, char genero, String fechanacimiento) {
+        this.nombres = nombres;
+        this.apellidos = apellidos;
+        this.dni = dni;
+        this.genero = genero;
+        this.fechanacimiento = fechanacimiento;
+    }
+
     public void setNombres(String nombres) {
         this.nombres = nombres;
     }
