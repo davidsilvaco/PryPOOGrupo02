@@ -1,7 +1,5 @@
 /*
- * To change
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Clase don de se registra el nombre del curso y el nombre las notas con su porcentaje 
  */
 package utpmas.utp.edu.pe;
 
