@@ -12,12 +12,21 @@ public class Curso {
     private String codigocurso;
     private String nombrecurso;
     private int creditos;
+
+    //constructor
+    public Curso(String codigocurso, String nombrecurso, int creditos) {
+        this.codigocurso = codigocurso;
+        this.nombrecurso = nombrecurso;
+        this.creditos = creditos;
+    }
+
     //getters and setters
 
     public String getCodigocurso() {
         return codigocurso;
     }
 
+    
     public void setCodigocurso(String codigocurso) {
         this.codigocurso = codigocurso;
     }

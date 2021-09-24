@@ -1,5 +1,5 @@
 /*
- * Clase donde se registra al alumno, ciclo, curso y modulo1
+ * Clase donde se registra al alumno, curso y modulo1
  
  */
 package utpmas.utp.edu.pe;
