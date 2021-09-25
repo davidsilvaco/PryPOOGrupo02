@@ -1,4 +1,4 @@
-/*
+/* David Gil Silva Collantes U19312681
  * Clase donde se registra al alumno, curso y modulo1
  
  */

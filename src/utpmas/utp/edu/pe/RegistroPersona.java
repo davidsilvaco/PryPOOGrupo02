@@ -1,3 +1,6 @@
+/* David Gil Silva Collantes U19312681
+
+*/
 package utpmas.utp.edu.pe;
 
 import java.util.ArrayList;
@@ -29,7 +32,7 @@ public class RegistroPersona {
             personas.add(nuevo);
 
         }else{
-            System.out.println(" Ya existe Registo");
+            System.out.println(" Ya existe Registo de Persona");
         }
 
     }

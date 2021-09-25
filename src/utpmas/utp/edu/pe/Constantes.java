@@ -1,3 +1,6 @@
+/* David Gil Silva Collantes U19312681
+
+*/
 package utpmas.utp.edu.pe;
 
 public interface Constantes {

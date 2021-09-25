@@ -1,4 +1,4 @@
-/*
+/* David Gil Silva Collantes U19312681
  * Clase don de se registra el nombre del curso y el nombre las notas con su porcentaje 
  */
 package utpmas.utp.edu.pe;
