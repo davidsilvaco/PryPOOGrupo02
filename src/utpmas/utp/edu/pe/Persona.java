@@ -11,11 +11,11 @@ package utpmas.utp.edu.pe;
  */
 public abstract class Persona {
     //atributos
-    private String nombres;
-    private String apellidos;
-    private String dni;
-    private char genero;
-    private String fechanacimiento;
+    protected String nombres;
+    protected String apellidos;
+    protected String dni;
+    protected char genero;
+    protected String fechanacimiento;
     
     //constantes
     
@@ -73,7 +73,7 @@ public abstract class Persona {
         this.fechanacimiento = fechanacimiento;
     }
 
- 
+    public abstract String mostrar();
     
     
     

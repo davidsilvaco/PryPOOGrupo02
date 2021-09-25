@@ -50,11 +50,11 @@ public class Alumno extends Persona implements Constantes{
     public void setCorreoalumno(String correoalumno) {
         this.correoalumno = correoalumno;
     }    
+
     //metodos
-
-
+    
     @Override
-    public String toString() {
+    public String mostrar() {
         return "Persona [codigoalumno=" + codigoalumno + "apellidos=" + this.getApellidos()
         + ", nombres=" + this.getNombres() + ", dni=" + this.getDni()  + ", genero=" 
         + this.getGenero() + ", fechanacimiento=" + this.getFechanacimiento() +", fechanacimiento=" +correoalumno+ "]";

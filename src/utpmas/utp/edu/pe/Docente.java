@@ -42,7 +42,7 @@ public class Docente extends Persona implements Constantes{
     }    
     
     @Override
-    public String toString() {
+    public String mostrar() {
         return "Docente [codigoadocente=" + codigoadocente + "apellidos=" + this.getApellidos()
         + ", nombres=" + this.getNombres() + ", dni=" + this.getDni()  + ", genero=" 
         + this.getGenero() + ", fechanacimiento=" + this.getFechanacimiento() +", correodocente=" + correodocente + "]";

@@ -47,6 +47,12 @@ public class Matricula {
     public void setCodigomodulo(String codigomodulo) {
         this.codigomodulo = codigomodulo;
     }
+
+    @Override
+    public String toString() {
+        return "Matricula [codigoalumno=" + codigoalumno + ", codigocurso=" + codigocurso + ", codigodocente="
+                + codigodocente + ", codigomodulo=" + codigomodulo + "]";
+    }
     
     
     
