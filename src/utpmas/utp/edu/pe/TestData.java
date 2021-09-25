@@ -2,7 +2,9 @@ package utpmas.utp.edu.pe;
 
 public class TestData {
     public RegistroPersona regriper;
+    public RegistroCurso regcursos;
     public MisCursos regMisCursos;
+    
     public void creadata(){
         //Crea array por defecnto de alumnos
         Alumno listaAlumno[] = new Alumno[4];
@@ -11,6 +13,7 @@ public class TestData {
         Matricula listaMatricula[] = new Matricula[10];
 
         RegistroPersona regriper = new RegistroPersona();
+        RegistroCurso regcursos = new RegistroCurso();
         MisCursos regMisCursos = new MisCursos();
 
         listaAlumno[0] = new Alumno("NomAlumno01", "apellidos01", "dni01", 'M', "02/03/1990", "U11111111", "U11111111@utp.edu.pe");
@@ -21,8 +24,8 @@ public class TestData {
             regriper.agregar(listaAlumno[i]);
         }
         //crea array por defecto de Docentes
-        listaDocente[0] = new Docente("NomDocente01", "apellidos04", "dni04", 'M', "05/03/1990", "S11111111");
-        listaDocente[1] = new Docente("NomDocente02", "apellidos04", "dni04", 'M', "05/03/1990", "S11111112");
+        listaDocente[0] = new Docente("NomDocente01", "apellidos04", "dni05", 'M', "05/03/1990", "S11111111");
+        listaDocente[1] = new Docente("NomDocente02", "apellidos04", "dni06", 'M', "05/03/1990", "S11111112");
         listaDocente[2] = new Docente("NomDocente03", "apellidos04", "dni04", 'M', "05/03/1990", "S11111113");
         for(int i=0;i<listaDocente.length;i++){
             regriper.agregar(listaDocente[i]);
@@ -34,6 +37,10 @@ public class TestData {
         listaCurso[3] = new Curso("c04", "Curso04", 4);
         listaCurso[4] = new Curso("c05", "Curso05", 2);
         listaCurso[5] = new Curso("c06", "Curso06", 2);
+        
+        for(int i=0;i<listaCurso.length;i++){
+            regcursos.agregar(listaCurso[i]);
+        }
 
         ////crea array por defecto de Matricula
         listaMatricula[0] = new Matricula("U11111111", "c01", "S11111111", "M1");
@@ -53,6 +60,7 @@ public class TestData {
 
         this.regMisCursos = regMisCursos;
         this.regriper = regriper;
+        this.regcursos = regcursos;
 
     }
     

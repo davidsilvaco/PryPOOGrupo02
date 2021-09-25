@@ -48,11 +48,23 @@ public class MisCursos {
     public void listar(){
         System.out.println("Listando Cursos:");
         for(Matricula tmpMatricula : matriculados){
-            System.out.println(tmpMatricula.toString());
+            System.out.println(tmpMatricula.mostrar());
         }    
     }
 
-    public void listaCursosPorModulo(){
+    public void listaCursosAlumno(String codigoalumno){
+        int cont=0;
+        for(Matricula tmpMatricula : matriculados){
+            
+            if(tmpMatricula.getCodigoalumno().equalsIgnoreCase(codigoalumno)){
+                System.out.println("Modulo: "+tmpMatricula.getCodigomodulo()+" Curso: "+tmpMatricula.getCodigocurso());
+                cont++;
+            }          
+        }
+        
+        if(cont==0){
+                System.out.println(" No Registra Cursos Matriculados ");
+            } 
 
     }
     public void listaNotasCurso(){

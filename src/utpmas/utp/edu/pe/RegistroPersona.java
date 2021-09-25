@@ -36,7 +36,7 @@ public class RegistroPersona {
     //listar las personas
     public void listar(){
         for(Persona tmpPersona : personas){
-            System.out.println(tmpPersona.toString());
+            System.out.println(tmpPersona.mostrar());
         }    
     }
 

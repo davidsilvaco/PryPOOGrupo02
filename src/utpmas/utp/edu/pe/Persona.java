@@ -9,7 +9,7 @@ package utpmas.utp.edu.pe;
  *
  * @author DAVID SILVA C
  */
-public abstract class Persona {
+public abstract class Persona implements Operaciones {
     //atributos
     protected String nombres;
     protected String apellidos;
@@ -73,8 +73,13 @@ public abstract class Persona {
         this.fechanacimiento = fechanacimiento;
     }
 
-    public abstract String mostrar();
+    @Override
+    public String mostrar(){
+        return "Persona{" + "nombres=" + nombres + ", apellidos=" + apellidos + ", dni=" + dni + ", genero=" + genero + ", fechanacimiento=" + fechanacimiento + '}';
+    }
+
     
+
     
     
 }

@@ -8,7 +8,7 @@ package utpmas.utp.edu.pe;
  *
  * @author DAVID
  */
-public class Matricula {
+public class Matricula implements Operaciones {
     //variables
     private String codigoalumno;
     private String codigocurso;
@@ -49,7 +49,7 @@ public class Matricula {
     }
 
     @Override
-    public String toString() {
+    public String mostrar() {
         return "Matricula [codigoalumno=" + codigoalumno + ", codigocurso=" + codigocurso + ", codigodocente="
                 + codigodocente + ", codigomodulo=" + codigomodulo + "]";
     }
