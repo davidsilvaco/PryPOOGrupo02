@@ -18,15 +18,17 @@ import java.util.Scanner;
 public class AppUtpMas implements Constantes{
     public static void main(String[] args){
         
-        
+        //instancia objetos para registros e Personas, cursos y Matricula
         RegistroPersona regriper = new RegistroPersona();
         RegistroCurso regcursos = new RegistroCurso();
         MisCursos regMisCursos = new MisCursos();
         
-        
+        //carga datos de prueba
         TestData testData = new TestData();
-
+        
         testData.creadata();
+        
+        //regresa los datos de prueba los objetos principales con las que se trabajara en el menu.
         regMisCursos = testData.regMisCursos;
         regriper = testData.regriper;
         regcursos = testData.regcursos;
